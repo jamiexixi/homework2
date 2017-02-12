@@ -11,6 +11,7 @@ div{
    
     z-index:1;
      position: fixed;
+    margin-top:0;
     margin-left:20px;
     margin-right:20px;
     height:75px;
@@ -39,7 +40,9 @@ div{
    background-color:#f1f095;
     
     }    
-footer{
+.footer{
+     position: fixed;
+     float:botton;
     clear:both;
     margin-left:20px;
     margin-right:20px;
@@ -102,7 +105,7 @@ font-size:20px}
      margin-top:10px;
      margin-botton:10px
     }   
-footer p{
+.footer p{
  
        margin-botton: 10px;
     background-color:#dceae9;
