@@ -41,7 +41,7 @@ div{
     
     }    
 .footer{
-     position: fixed;
+     position:relative;
     clear:both;
     margin:20px;
 
