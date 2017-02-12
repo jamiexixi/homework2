@@ -17,7 +17,8 @@ div{
     width:99%;
     }  
 .left{
-     margin-top:85px;
+      position: fixed;
+    margin-top:85px;
      background-color:#f6f5cb;
     float:left;
     margin-left:20px;
@@ -37,7 +38,7 @@ div{
    background-color:#f1f095;
     
     }    
-#footer{
+footer{
     clear:both;
     margin-left:20px;
     margin-right:20px;
@@ -83,7 +84,8 @@ font-size:20px}
     font-size:20px;
     }
 .left li{
-     background-color:#f6f5cb;
+     
+    background-color:#f6f5cb;
      font-size: 18px;
      
     }   
@@ -99,8 +101,8 @@ font-size:20px}
      margin-top:10px;
      margin-botton:10px
     }   
-footer {
-   position: fixed;
+footer p{
+ 
        margin-botton: 10px;
     background-color:#dceae9;
    text-align: center;
