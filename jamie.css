@@ -99,8 +99,10 @@ font-size:20px}
      margin-top:10px;
      margin-botton:10px
     }   
-#footer p{
-   background-color:#dceae9;
+footer {
+   position: fixed;
+       margin-botton: 10px;
+    background-color:#dceae9;
    text-align: center;
    padding-top:25px
     }  
