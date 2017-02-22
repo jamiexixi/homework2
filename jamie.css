@@ -2,13 +2,13 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 62.5%;
-    line-height: 1.4;
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
 }
 
-html,
-body {
+body .header {
     height: 100%;
     min-height: 100%;
     font-family: Roboto, sans-serif;
@@ -163,30 +163,6 @@ main {
     background-position: left center;
 }
 
-.card {
-    padding: 16px;
-    margin: 24px;
-    border-radius: 2px;
-    background-color: #fff;
-    color: rgba(0, 0, 0, 0.87);
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-}
-
-.card .card-title {
-    padding: 24px 16px 8px;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 32px;
-}
-
-.card p {
-    font-size: 1.6rem;
-    font-weight: 400;
-    letter-spacing: 0.010em;
-    line-height: 1.6em;
-    padding: 0 16px;
-}
-
 .img-head {
     margin: 3px;
     border: 1px solid #bebebe;
@@ -225,7 +201,6 @@ a.color-line .img-word:hover {
 }
 
 .left {
-    position: fixed;
     margin-top: 85px;
     background-color: #f6f5cb;
     float: left;
@@ -246,12 +221,16 @@ a.color-line .img-word:hover {
     background-color: #f1f095;
 }
 
-.footer {
+footer {
     position: relative;
     clear: both;
     margin: 20px;
     height: 75px;
     background-color: #dceae9;
+}
+
+.pull-right {
+    float: right!important;
 }
 
 #duan {
@@ -306,8 +285,11 @@ li {
     margin-top: 10px;
 }
 
-.footer p {
+footer p {
     background-color: #dceae9;
     text-align: center;
-    padding-top: 25px
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
 }
