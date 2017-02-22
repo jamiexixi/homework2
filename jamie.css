@@ -145,7 +145,8 @@ main {
 
 .card {
     padding: 16px;
-    margin: 24px;
+    margin-left: 100px;
+    margin-right: 100px;
     border-radius: 2px;
     background-color: #fff;
     color: rgba(0, 0, 0, 0.87);
@@ -198,7 +199,6 @@ div.row {
 
 .img-head {
     position: relative;
-    margin: 24px;
     border: 1px solid #bebebe;
     background-color: #fff;
     height: 250px;
@@ -209,7 +209,6 @@ div.row {
 }
 
 .img-head .img-square {
-    margin: 3px;
     width: 120px;
     height: 120px;
     display: -moz-box;
