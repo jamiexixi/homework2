@@ -30,7 +30,7 @@ main {
     width: 100%;
     color: #fff;
     height: 300px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0 2px 5px transparent;
 }
 
 .header-content {
@@ -40,8 +40,15 @@ main {
 }
 
 .app-toolbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     position: relative;
     height: 64px;
@@ -53,6 +60,7 @@ main {
 #large-toolbar {
     position: absolute;
     bottom: 0;
+    -webkit-transform-origin: left top;
     transform-origin: left top;
     margin-bottom: 24px;
     margin-bottom: 16px;
@@ -61,9 +69,13 @@ main {
 
 .small-title,
 .large-title {
+    -webkit-transform-origin: left top;
     transform-origin: left top;
     white-space: nowrap;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
     flex: 1;
+    -ms-flex-preferred-size: 0.000000001px;
     flex-basis: 0.000000001px;
     overflow: hidden;
     font-weight: 400;
@@ -89,6 +101,9 @@ main {
     position: relative;
     padding: 6px;
     outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     font-size: 0;
     line-height: 1;
@@ -97,9 +112,15 @@ main {
     box-sizing: border-box !important;
 }
 
-.icon {
+.icon-button .icon {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
     vertical-align: middle;
@@ -140,6 +161,30 @@ main {
 #background-front {
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/106114/mountain-01.jpg);
     background-position: left center;
+}
+
+.card {
+    padding: 16px;
+    margin: 24px;
+    border-radius: 2px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-title {
+    padding: 24px 16px 8px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.card p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.010em;
+    line-height: 1.6em;
+    padding: 0 16px;
 }
 
 .img-head {
