@@ -58,7 +58,7 @@ var progress = 0;
 var requestId = null;
 var reversed = true;
 
-cloneCards(25);
+
 update();
 window.addEventListener("scroll", requestUpdate);
 

@@ -31,6 +31,7 @@ main {
     color: #fff;
     height: 300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+    z-index: 1;
 }
 
 .header-content {
@@ -166,10 +167,15 @@ main {
     padding: 0 16px;
 }
 
+div.row {
+    clear: both;
+}
+
 .img-head {
     position: relative;
     margin: 24px;
     border: 1px solid #bebebe;
+    background-color: #fff;
     height: 300px;
     width: auto;
     float: left;
@@ -181,6 +187,9 @@ main {
     margin: 3px;
     width: 120px;
     height: 120px;
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
 }
 
 .img-word {
@@ -237,6 +246,25 @@ footer {
 
 footer .pull-right {
     float: right!important;
+    border: 1px solid #12c8de;
+    background-color: #12c8de;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+}
+
+footer .pull-right a {
+    text-decoration: none;
+}
+
+footer .pull-right a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer p {
+    text-align: center;
+    color: #fff
 }
 
 .right h5 {
