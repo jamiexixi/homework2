@@ -3,7 +3,7 @@
 <head>
 
     <link rel="stylesheet" href="jamie.css" type="text/css" />
-
+    <link rel="stylesheet" href="tt.css" type="text/css" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -127,6 +127,19 @@
 
     </div>
 
+
+    <div class="twentytwenty-wrapper">
+        <div class="twentytwenty-container" style="height: 334px;">
+            <img src="https://lh3.googleusercontent.com/-f8A6fWndvPs/AAAAAAAAAAI/AAAAAAAAAAA/G-pYponENrg/photo.jpg" class="twentytwenty-before">
+            <img src="http://bsccongress.com/wp-content/uploads/2016/06/white-letter-b-clip-art.png" class="twentytwenty-after">
+            <div class="twentytwenty-overlay">
+                <div class="twentytwenty-before-label"></div>
+                <div class="twentytwenty-after-label"></div>
+            </div>
+            <div class="twentytwenty-handle" style="left: 396.656px;"><span class="twentytwenty-left-arrow"></span><span class="twentytwenty-right-arrow"></span></div>
+        </div>
+    </div>
+
     <footer>
         <div class="pull-right">
             <p> <a href="#" role="button"> Back to top</a></p>
@@ -139,6 +152,16 @@
     <script src="//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="tricker.js">
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="mm.js"></script>
+    <script src="tt.js"></script>
+    <script>
+        $(window).load(function() {
+            $(".twentytwenty-container").twentytwenty({
+                default_offset_pct: 0.7
+            });
+        });
     </script>
 </main>
 </body>
