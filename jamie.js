@@ -16,16 +16,38 @@ var scale = rect1.height / rect2.height;
 var x = rect1.left - rect2.left;
 var y = rect1.top - rect2.top;
 
-var headerAnimation = new TimelineLite({ paused: true })
-    .to(largeTitle, 1, { scale: scale, x: x, y: deltaHeight + y }, 0)
-    .to(header, 1, { y: -deltaHeight }, 0)
-    .to(toolbar, 1, { y: deltaHeight }, 0)
-    .to(bgBack, 1, { y: deltaHeight / 2 }, 0)
-    .to(bgFront, 1, { y: deltaHeight / 2 }, 0)
-    .to(bgBack, 1, { autoAlpha: 1 }, 0)
-    .to(bgFront, 1, { autoAlpha: 0 }, 0)
-    .set(smallTitle, { autoAlpha: 1 }, 1)
-    .set(largeTitle, { autoAlpha: 0 }, 1);
+var headerAnimation = new TimelineLite({
+        paused: true
+    })
+    .to(largeTitle, 1, {
+        scale: scale,
+        x: x,
+        y: deltaHeight + y
+    }, 0)
+    .to(header, 1, {
+        y: -deltaHeight
+    }, 0)
+    .to(toolbar, 1, {
+        y: deltaHeight
+    }, 0)
+    .to(bgBack, 1, {
+        y: deltaHeight / 2
+    }, 0)
+    .to(bgFront, 1, {
+        y: deltaHeight / 2
+    }, 0)
+    .to(bgBack, 1, {
+        autoAlpha: 1
+    }, 0)
+    .to(bgFront, 1, {
+        autoAlpha: 0
+    }, 0)
+    .set(smallTitle, {
+        autoAlpha: 1
+    }, 1)
+    .set(largeTitle, {
+        autoAlpha: 0
+    }, 1);
 
 var shadowAnimation = TweenLite.to(header, 0.4, {
     boxShadow: "0 2px 5px rgba(0,0,0,0.6)",
