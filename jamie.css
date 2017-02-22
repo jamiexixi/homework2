@@ -167,6 +167,31 @@ main {
     padding: 0 16px;
 }
 
+.tricker {
+    height: 50px;
+    overflow: hidden;
+    margin: 100px auto 20px;
+}
+
+.tricker h2 {
+    color: #15aba2;
+    text-shadow: 2px 2px 2px #2d2d35;
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: margin-top .3s ease;
+}
+
+.subline {
+    width: 100px;
+    height: 2px;
+    margin: 10px auto;
+    background-color: #15aba2;
+}
+
 div.row {
     clear: both;
 }
@@ -176,8 +201,8 @@ div.row {
     margin: 24px;
     border: 1px solid #bebebe;
     background-color: #fff;
-    height: 300px;
-    width: auto;
+    height: 250px;
+    width: 250px;
     float: left;
     border-radius: 2px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
@@ -215,27 +240,6 @@ a.color-line .img-word:hover {
     padding: 2px;
 }
 
-.left {
-    margin-top: 85px;
-    background-color: #f6f5cb;
-    float: left;
-    margin-left: 20px;
-    padding-left: 15px;
-    padding-right: 12px;
-    width: 20%;
-    height: 1050px;
-}
-
-.right {
-    float: right;
-    padding-top: 80px;
-    padding-left: 20px;
-    padding-right: 85px;
-    width: 63%;
-    height: 1050px;
-    background-color: #f1f095;
-}
-
 footer {
     position: relative;
     clear: both;
@@ -265,36 +269,4 @@ footer .pull-right a:visited {
 footer p {
     text-align: center;
     color: #fff
-}
-
-.right h5 {
-    color: grey;
-}
-
-li {
-    font-weight: 900;
-    font-size: 20px
-}
-
-.left h4 {
-    background-color: #f6f5cb;
-    font-size: 20px;
-}
-
-.left li {
-    background-color: #f6f5cb;
-    font-size: 18px;
-}
-
-.left ol {
-    background-color: #f6f5cb;
-    font-size: 16px;
-    color: #20857d;
-}
-
-#tu {
-    float: right;
-    width: 50%;
-    margin-left: 40px;
-    margin-top: 10px;
 }
