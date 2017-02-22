@@ -1,5 +1,5 @@
 (function($) {
-    var duration = 2500;
+    var duration = 3000;
     var current = 1;
     var tricker = $(".tricker");
     var height = tricker.height();

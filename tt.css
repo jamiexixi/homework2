@@ -82,16 +82,12 @@
     position: relative;
     -webkit-user-select: none;
     -moz-user-select: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .twentytwenty-container img {
     position: absolute;
     top: 0;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .twentytwenty-container.active .twentytwenty-overlay,
@@ -117,7 +113,7 @@
 }
 
 .twentytwenty-before-label:before {
-    content: "Before";
+    content: "TRUMP";
     left: 10px;
 }
 
@@ -126,7 +122,7 @@
 }
 
 .twentytwenty-after-label:before {
-    content: "After";
+    content: "CLINTON";
     right: 10px;
 }
 
