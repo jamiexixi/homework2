@@ -31,7 +31,7 @@ main {
     color: #fff;
     height: 300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
-    z-index: 1;
+    z-index: 99;
 }
 
 .header-content {
@@ -303,7 +303,8 @@ a:-webkit-any-link {
     content: "\e006";
 }
 
-a.cta--secondary:link {
+a.cta--secondary:link,
+a.cta--secondary:visited {
     color: #606161;
     text-decoration: none;
 }
