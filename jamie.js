@@ -92,7 +92,7 @@ function cloneCards(count) {
     var card = document.querySelector(".card");
     var tt = document.querySelector(".twentytwenty-wrapper");
     var container = document.querySelector(".container");
-    var page = document.querySelector(".page-header page-header-wide page-header-bg overlay parallax");
+    var page = document.querySelector(".subhead");
     for (var i = 0; i < count; i++) {
         main.appendChild(card.cloneNode(true), tt.cloneNode(true), container.cloneNode(true), page.cloneNode(true));
     }

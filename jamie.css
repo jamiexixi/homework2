@@ -151,6 +151,70 @@ main {
     margin-right: 10%!important;
 }
 
+.subhead {
+    background-image: url(https://blog.socialcops.com/wp-content/uploads/2016/09/photo_49172_20151116-1920x1222.jpg);
+    background-color: #abaead;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: scroll;
+    background-size: 100%;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 32.8177px;
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    color: #eceeef;
+    display: block;
+}
+
+.container2 {
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 720px;
+}
+
+.overlay-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+}
+
+.post-categories {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 15px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 0;
+}
+
+.overlay-content h1 {
+    color: white;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.1;
+    letter-spacing: -.1rem;
+    text-transform: none;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
 .card {
     margin-bottom: 30px;
     padding: 16px;
