@@ -113,7 +113,7 @@
 }
 
 .twentytwenty-before-label:before {
-    content: "TRUMP";
+    content: "OBAMA";
     left: 10px;
 }
 
@@ -122,7 +122,7 @@
 }
 
 .twentytwenty-after-label:before {
-    content: "CLINTON";
+    content: "TRUMP";
     right: 10px;
 }
 
