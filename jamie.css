@@ -239,6 +239,38 @@ main {
     text-shadow: 2px 2px 2px #2d2d35;
 }
 
+.EG {
+    width: 62%;
+    height: auto;
+    margin-top: 60px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a.view {
+    text-align: center;
+}
+
+a.view:link {
+    color: black;
+    text-decoration: none;
+}
+
+a.view:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a.view:hover {
+    color: #c7f078;
+    text-decoration: underline;
+}
+
+a.view p {
+    font-size: 14px;
+}
+
 .card {
     margin-bottom: 30px;
     padding: 16px;
@@ -404,36 +436,4 @@ a.cta--secondary:hover,
 :focus {
     color: #3372df;
     text-decoration: underline;
-}
-
-.EG {
-    width: 39%;
-    height: auto;
-    margin-top: 60px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-a.view {
-    text-align: center;
-}
-
-a.view:link {
-    color: black;
-    text-decoration: none;
-}
-
-a.view:visited {
-    color: black;
-    text-decoration: none;
-}
-
-a.view:hover {
-    color: #c7f078;
-    text-decoration: underline;
-}
-
-a.view p {
-    font-size: 14px;
 }
