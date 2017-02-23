@@ -355,6 +355,15 @@ a.view p {
     margin-right: auto;
 }
 
+hr.featurette-divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px;
+    height: 0;
+    box-sizing: content-box;
+}
+
 .kuang h3 {
     font-size: 16px;
     font-family: "BWHaasText", "Helvetica Neue", Helvetica, Arial, sans-serif;
