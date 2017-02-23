@@ -204,16 +204,16 @@ div.row {
     clear: both;
 }
 
-.img-head {
+.color-line {
     position: relative;
     margin: 2%;
-    border: 1px solid #bebebe;
+    border: 1px solid #bebebe!important;
     background-color: #fff;
     height: 250px;
     width: 80%;
     border-radius: 2px;
     float: left;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2)!important;
 }
 
 .img-head .img-square {
@@ -224,7 +224,7 @@ div.row {
     margin-right: auto;
 }
 
-.img-word1 {
+a.color-line h3 {
     font-size: 12px;
     font-family: "BWHaasText", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #2d2d35;
@@ -238,7 +238,7 @@ div.row {
     border-bottom: none;
 }
 
-.img-word2 {
+a.color-line h4 {
     font-size: 9px;
     font-family: "BWHaasText", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #2d2d35;
@@ -256,7 +256,8 @@ a.color-line .img-head:hover {
     border: 3px solid #c7f078;
 }
 
-a.color-line .img-word:hover {
+a.color-line h3:hover,
+a.color-line h4:hover {
     background-color: #c7f078;
     padding: 2px;
 }
