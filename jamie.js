@@ -90,8 +90,9 @@ function cloneCards(count) {
 
     var main = document.querySelector("main");
     var card = document.querySelector(".card");
-
+    var tt = document.querySelector(".twentytwenty-wrapper");
+    var container = document.querySelector(".container");
     for (var i = 0; i < count; i++) {
-        main.appendChild(card.cloneNode(true));
+        main.appendChild(card.cloneNode(true), tt.cloneNode(true), container.cloneNode(true));
     }
 }
