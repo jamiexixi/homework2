@@ -172,6 +172,7 @@ main {
 }
 
 .container2 {
+    margin-top: 90px;
     margin-left: 120px;
     margin-right: 120px;
     padding-left: 20px;
@@ -194,12 +195,18 @@ main {
     font-family: Lato, Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 1.5;
     letter-spacing: 0;
     text-transform: uppercase;
-    color: white;
     margin-top: 0;
+}
+
+.post-categories li a:link,
+.post-categories li a:visited,
+.post-categories li a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 .overlay-content h1 {
@@ -207,7 +214,7 @@ main {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 20px;
+    font-size: 40px;
     line-height: 1.1;
     letter-spacing: -.1rem;
     text-transform: none;
