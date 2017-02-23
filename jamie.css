@@ -152,8 +152,8 @@ main {
 }
 
 .subhead {
-    background-image: url(https://blog.socialcops.com/wp-content/uploads/2016/09/photo_49172_20151116-1920x1222.jpg);
-    background-color: #949792;
+    background-image: url(http://www.technotechindia.com/wp-content/uploads/2016/09/video-SEO.jpg);
+    background-color: #717170;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -206,6 +206,7 @@ main {
     letter-spacing: 0;
     text-transform: uppercase;
     margin-top: 0;
+    text-shadow: 2px 2px 2px #2d2d35;
 }
 
 .post-categories li a:link {
@@ -234,6 +235,7 @@ main {
     text-transform: none;
     margin-bottom: 20px;
     margin-top: 0;
+    text-shadow: 2px 2px 2px #2d2d35;
 }
 
 .card {
