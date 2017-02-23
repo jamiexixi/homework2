@@ -152,6 +152,7 @@ main {
 }
 
 .card {
+    margin-bottom: 30px;
     padding: 16px;
     border-radius: 2px;
     background-color: #fff;
@@ -223,8 +224,22 @@ div.row {
     margin-right: auto;
 }
 
-.img-word {
-    font-size: 16px;
+.img-word1 {
+    font-size: 12px;
+    font-family: "BWHaasText", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #2d2d35;
+    text-align: center;
+    display: inline-block;
+    -ms-flex-preferred-size: 32%;
+    flex-basis: 32%;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding-bottom: 28px;
+    border-bottom: none;
+}
+
+.img-word2 {
+    font-size: 9px;
     font-family: "BWHaasText", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #2d2d35;
     text-align: center;
