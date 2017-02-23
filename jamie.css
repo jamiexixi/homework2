@@ -248,6 +248,15 @@ main {
     margin-left: auto;
 }
 
+.SD {
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 a.view {
     text-align: center;
 }
