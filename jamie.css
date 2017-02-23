@@ -153,7 +153,7 @@ main {
 
 .subhead {
     background-image: url(https://blog.socialcops.com/wp-content/uploads/2016/09/photo_49172_20151116-1920x1222.jpg);
-    background-color: #abaead;
+    background-color: #949792;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -171,12 +171,19 @@ main {
     display: block;
 }
 
+.overlay-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 .container2 {
-    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
-    max-width: 720px;
-    text-align: center;
 }
 
 .overlay-content {
@@ -184,14 +191,13 @@ main {
     padding-bottom: 2rem;
     position: relative;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    max-width: 100%;
 }
 
 .post-categories {
     padding-left: 0;
     list-style: none;
-    margin-bottom: 15px;
+    margin-bottom: 24px;
     font-family: Lato, Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -200,12 +206,14 @@ main {
     letter-spacing: 0;
     text-transform: uppercase;
     margin-top: 0;
-    text-align: center;
 }
 
-.post-categories li a:link,
-.post-categories li a:visited,
-{
+.post-categories li a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.post-categories li a:visited {
     color: white;
     text-decoration: none;
 }
