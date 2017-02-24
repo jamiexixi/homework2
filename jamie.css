@@ -354,14 +354,14 @@ a.view p {
 }
 
 .card .card-title {
-    padding: 24px 16px 8px;
-    font-size: 24px;
+    padding: 28px 16px 8px;
+    font-size: 28px;
     font-weight: 400;
     line-height: 32px;
 }
 
 .card p {
-    font-size: 1.6rem;
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: 0.010em;
     line-height: 1.6em;
@@ -523,14 +523,14 @@ a.cta--secondary:hover,
     margin: 0 0 10px;
     display: block;
     color: #656565;
-    font-size: 17px;
-    padding-top: 18px
+    font-size: 19px;
+    padding-top: 20%;
 }
 
 td .txt-1 {
     font-weight: bolder;
     color: black;
-    font-size: 18px;
-    padding-top: 20px;
+    font-size: 28px;
+    padding-top: 20%;
     text-align: center;
 }
