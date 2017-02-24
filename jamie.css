@@ -590,3 +590,13 @@ td .txt-1 {
     height: 70px;
     display: block;
 }
+
+.footer_NAME {
+    float: right;
+    margin-left: 3.7%;
+    font-size: 26px;
+    width: 22.2%;
+    font-weight: 300;
+    display: block;
+    font-family: 'LeagueGothic', 'Arial Narrow', Impact, sans-serif;
+}
