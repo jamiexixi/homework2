@@ -579,9 +579,7 @@ td .txt-1 {
 .logo {
     height: 70px;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 50px;
+    float: right;
 }
 
 .footer_NAME {
