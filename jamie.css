@@ -576,11 +576,14 @@ td .txt-1 {
     font-family: 'LeagueGothic', 'Arial Narrow', Impact, sans-serif;
 }
 
+.mylogo {
+    margin-top: 50px;
+}
+
 .logo {
     height: 70px;
     display: block;
     float: right;
-    margin-top: 50px;
 }
 
 .footer_NAME {
