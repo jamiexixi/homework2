@@ -520,11 +520,9 @@ a.cta--secondary:hover,
 }
 
 .txt-bold {
-    margin: 0 0 10px;
     display: block;
     color: #656565;
     font-size: 19px;
-    margin-top: 20%;
 }
 
 td .txt-1 {
