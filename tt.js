@@ -40,7 +40,7 @@
 
             var adjustSlider = function(pct) {
                 var offset = calcOffset(pct);
-                //slider.css("height", offset.h);
+
                 slider.css("left", offset.cw);
                 adjustContainer(offset);
             }

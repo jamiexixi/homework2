@@ -452,8 +452,8 @@ a.color-line .kuang:hover {
 
 footer {
     width: 100%;
-    height: 200px;
-    background-color: grey;
+    height: 150px;
+    background-color: #4a4b4b;
     clear: both;
     margin-top: 10px;
 }
@@ -532,4 +532,34 @@ td .txt-1 {
     font-size: 25px;
     margin-top: 40%;
     text-align: center;
+}
+
+.main_footer {
+    padding-left: 35px;
+    padding-right: 35px;
+    max-width: 864px;
+    box-sizing: content-box;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #fff;
+}
+
+.footer_tittle span {
+    display: block;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 1em;
+    font-family: 'LeagueGothic', 'Arial Narrow', Impact, sans-serif;
+}
+
+.footer_tittle {
+    float: left;
+    margin-right: 3.7%;
+    font-size: 26px;
+    width: 22.2%;
+    font-weight: 300;
+    display: block;
+    font-family: 'LeagueGothic', 'Arial Narrow', Impact, sans-serif;
 }
