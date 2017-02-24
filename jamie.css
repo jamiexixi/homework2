@@ -524,13 +524,13 @@ a.cta--secondary:hover,
     display: block;
     color: #656565;
     font-size: 19px;
-    padding-top: 20%;
+    margin-top: 20%;
 }
 
 td .txt-1 {
     font-weight: bolder;
     color: black;
     font-size: 28px;
-    padding-top: 40%;
+    margin-top: 40%;
     text-align: center;
 }
