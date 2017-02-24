@@ -239,6 +239,62 @@ main {
     text-shadow: 2px 2px 2px #2d2d35;
 }
 
+.BG {
+    background-image: url(picture/BG.png);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: 100%;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 32.8177px;
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    color: #eceeef;
+    display: block;
+}
+
+.Boverlay-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.Bcontainer2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Boverlay-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+}
+
+.Boverlay-content h1 {
+    color: white;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -.1rem;
+    text-transform: none;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-shadow: 2px 2px 2px #2d2d35;
+}
+
 .EG {
     width: 90%;
     height: auto;
@@ -461,4 +517,18 @@ a.cta--secondary:hover,
 :focus {
     color: #3372df;
     text-decoration: underline;
+}
+
+.txt-bold {
+    margin: 0 0 10px;
+    display: block;
+    color: #656565;
+    font-size: 14px;
+    text-align: center;
+}
+
+td .txt-1 {
+    font-weight: bolder;
+    color: black;
+    font-size: 15px;
 }
