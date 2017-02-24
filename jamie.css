@@ -577,9 +577,11 @@ td .txt-1 {
 }
 
 .logo {
+    margin-bottom: 20%;
     height: 70px;
-    margin-right: 50%;
-    margin-top: 15%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .footer_NAME {
